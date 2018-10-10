@@ -1,4 +1,4 @@
-package com.rotai.res_art2.chapter2;
+package com.rotai.res_art2.chapter2.IPC;
 
 import android.os.Parcel;
 import android.os.Parcelable;

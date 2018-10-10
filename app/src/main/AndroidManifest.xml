@@ -14,20 +14,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".chapter2.MainActivity"
+            android:name=".chapter2.IPC.MainActivity"
             android:configChanges="orientation|screenSize"
             android:launchMode="standard">
 
         </activity>
         <activity
-            android:name=".chapter2.SecondActivity"
+            android:name=".chapter2.IPC.SecondActivity"
             android:configChanges="screenLayout"
             android:process=":remote" />
         <activity
-            android:name=".chapter2.ThirdActivity"
+            android:name=".chapter2.IPC.ThirdActivity"
             android:configChanges="screenLayout"
             android:process="com.rotai.res_art2.remote" />
-        <activity android:name=".chapter2.TestActivity" />
+        <activity android:name=".chapter2.IPC.TestActivity" />
 
         <service
             android:name=".chapter2.AndroidIPC.MessengerService"

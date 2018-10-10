@@ -1,4 +1,4 @@
-package com.rotai.res_art2.chapter2;
+package com.rotai.res_art2.chapter2.IPC;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
