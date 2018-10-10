@@ -3,13 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".chapter2.MainActivity">
+    tools:context=".chapter2.SecondActivity">
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button2"
+        android:text="启动第三个活动"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="启动第二个活动" />
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
